@@ -2,7 +2,7 @@ name: bpref
 channels:
   - defaults
 dependencies:
-  - python=3.6
+  - python=3.7
   - pytorch=1.4.0
   - cudatoolkit=10.1
   - absl-py
@@ -18,3 +18,5 @@ dependencies:
     - matplotlib
     - glfw==1.11.2
     - scikit-image
+    - gym
+    - git+git://github.com/denisyarats/dmc2gym.git

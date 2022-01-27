@@ -14,7 +14,7 @@ num_train_steps: 1e6
 replay_buffer_capacity: ${num_train_steps}
 num_seed_steps: 5000
 eval_frequency: 10000
-num_eval_episodes: 10
+num_eval_episodes: 1
 
 # unsupervise
 num_unsup_steps: 0
